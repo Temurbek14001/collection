@@ -1,6 +1,6 @@
 .accordion-container {
      margin: 0 auto;
-     min-height: 100vh;
+     min-height: 50vh;
      font-family: sans-serif;
      display: flex;
      justify-content: center;
@@ -10,14 +10,14 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     margin: 10vmin;
+     margin: 5vmin;
      overflow: hidden;
      transform: skew(5deg);
 }
 .accordion-container .container .card {
      flex: 1;
      transition: all 1s ease-in-out;
-     height: 75vmin;
+     height: 95vmin;
      position: relative;
 }
 .accordion-container .container .card .card__head {
